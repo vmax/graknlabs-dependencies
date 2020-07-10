@@ -18,7 +18,7 @@ artifacts = {
     "com.fasterxml.jackson.core:jackson-core": "2.10.4",
     "com.fasterxml.jackson.core:jackson-databind": "2.10.4",
     "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml": "2.9.9",
-    "com.fasterxml.jackson.module:jackson-module-scala_2.11": "2.9.9",
+    "com.fasterxml.jackson.module:jackson-module-scala_2.12": "2.9.9",
     "com.github.rholder:guava-retrying": "2.0.0",
     "com.google.code.findbugs:annotations": "3.0.1",
     "com.google.code.findbugs:jsr305": "2.0.2",
@@ -121,31 +121,31 @@ artifacts = {
         ],
         "version": "2.7.2",
     },
-    "org.apache.spark:spark-core_2.11": {
+    "org.apache.spark:spark-core_2.12": {
         "exclude": [
-            "com.fasterxml.jackson.module:jackson-module-scala_2.10",
+            "com.fasterxml.jackson.module:jackson-module-scala_2.12",
             "io.netty:netty",
             "javax.servlet:ja,vax.servlet-api",
             "log4j:log4j",
-            "org.scala-lang.modules:scala-xml_2.11",
+            "org.scala-lang.modules:scala-xml_2.12",
             "org.slf4j:jcl-over-slf4j",
             "org.slf4j:slf4j-api",
             "org.slf4j:slf4j-log4j12",
         ],
-        "version": "2.2.0",
+        "version": "2.4.0",
     },
-    "org.apache.spark:spark-launcher_2.11": {
+    "org.apache.spark:spark-launcher_2.12": {
         "exclude": [
-            "com.fasterxml.jackson.module:jackson-module-scala_2.10",
+            "com.fasterxml.jackson.module:jackson-module-scala_2.12",
             "io.netty:netty",
             "javax.servlet:ja,vax.servlet-api",
             "log4j:log4j",
-            "org.scala-lang.modules:scala-xml_2.11",
+            "org.scala-lang.modules:scala-xml_2.12",
             "org.slf4j:jcl-over-slf4j",
             "org.slf4j:slf4j-api",
             "org.slf4j:slf4j-log4j12",
         ],
-        "version": "2.2.0",
+        "version": "2.4.0",
     },
     "org.apache.thrift:libthrift": "0.9.2",
     "org.apache.tinkerpop:gremlin-core": {
