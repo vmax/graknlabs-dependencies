@@ -19,6 +19,11 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
 def deps():
     git_repository(
+        name = "com_google_protobuf",
+	remote = "https://github.com/protocolbuffers/protobuf",
+        tag = "v3.15.6",
+    )
+    git_repository(
         name = "com_github_grpc_grpc",
         remote = "https://github.com/graknlabs/grpc",
         commit = "4a1528f6f20a8aa68bdbdc9a66286ec2394fc170"
